@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero-section{
+	background-image: linear-gradient(rgb(218,51,45,0.5), rgb(218,51,45, 0.5)), url('../images/bg.jpg');
+	padding: 45px 0 65px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.hero-section .logo{
+	margin-bottom: 150px;
+}
+.navbar{
+	text-align: right;
+	
+}
+
+.navbar ul li a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400px;
+	padding: 10px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+
+
+.navbar ul li a::after{
+	content: '';
+	width: 0;
+	height: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover::after{
+	width: 100%;
+}
+
+
+
+.cta-info h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 52px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.cta-info p{
+	color: #fff;
+	font-size: 36px;
+	font-weight: 400px;
+	margin-bottom: 50px;
+}
+
+.cta-info a{
+	background-color: #282828;
+	font-size: 17px;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 50px 15px 35px;
+	border-radius: 45px;
+	display: inline-block;
+}
+
+.cta-info a i{
+	font-size: 45px;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+
+.mob-img{
+	position: relative;
+}
+
+.mob-img img{
+	position: absolute;
+	right: 0;
+	top: -40px;
+}
+
+.col-4{
+	width: calc((100% * 4) / 12);
+}
+
+
+.col-6{
+	width: calc((100% * 6) / 12);
+}
+
+.col-7{
+	width: calc((100% * 7) / 12);
+}
+
+
+.col-8{
+	width: calc((100% * 8) / 12);
+}
+
+.col-12{
+	width: 100%;
+}
+
+.col-offset-2{
+	margin-left: calc((100% * 2) / 12);
+}
+
+
+/*#################################################-----Appfeatures section css-----#########################################################*/
+
+.app-features{
+	padding: 85px 0 100px;
+}
+
+
+.heading-features h2{
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+
+.heading-features p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #3a3a3a;
+	margin-bottom: 65px;
+}
+
+.feature-info h2{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1a1a1a1;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.feature-info p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+}
+
+.feature-info figure{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 40px;
+}
+	
+
+.feature-info figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+/*#################################################-----fruits section css-----#########################################################*/
+
+.fruit-cake{
+	padding: 190px 0 170px;
+	background: url('../images/Heroo2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+
+.fruit-cake h2{
+	font-size: 52px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.fruit-cake h3{
+	font-size: 52px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.fruit-cake p{
+	font-size: 24px;
+	color: #585858;
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+
+
+.fruit-cake a{
+	font-size: 15px;
+	padding: 20px 25px;
+	background-color: #d9332d;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 40px;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.primary-01{
+	color: #f55150;
+}
+
+.fruit-cake a:hover{
+	color: #f55150;
+	background-color: #fff;
+	border: 1px solid #d9332d;
+
+	
+}
+
+
+/*#################################################-----tfoot-section css-----#########################################################*/
+
+
+.tfoot-section{
+	padding: 120px 0 150px;
+	background-color: #2e2e38;
+}
+
+.footer-list h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+.footer-list ul li .box{
+	width: 55px;
+	height: 40px;
+	background-color: #e74c3c;
+}
+
+.footer-list ul li div{
+	float: left;
+}
+
+.tfoot-section .footer-logo{
+	margin-bottom: 60px;
+}
+
+.footer-list .fruitcake-info{
+	margin-left: 15px;
+	margin-top:  5px;
+}
+
+
+.footer-list .fruitcake-info p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+.footer-list ul li{
+	display: table;
+	width: 100%;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.suit-list ul li{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.suit-list ul .tweet-info{
+	font-size: 14px;
+	font-weight: 400px;
+	width: 70%;
+}
+
+
+.suit-list ul li p{
+	font-size: 11px;
+	padding-top: 10px;
+}
+
+.footer-list p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	width: 70%;
+}
+
+footer{
+	padding: 40px;
+	background-color: #d7dedc;
+}
+
+.footer-info-section p, .social-icon{
+	display: inline-block;
+}
+
+.footer-info-section p{
+	font-size: 25px;
+	font-weight: 400;
+	color: #000000;
+	padding-right: 20px;
+}
+
+.footer-info-section p a{
+	color: #000000;
+	
+}
+
+.footer-info-section .foot-info-text a{
+	padding: 0 25px;
+}
+
+
+.social-icon a{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #000000;
+	background-color: #395797;
+	padding: 5px 8px;
+	border-radius: 5px;
+	margin-right: 35px;
+
+}
+
+.social-icon span a{
+	background-color: #a1e7e9;
+	color: #2d7bb0;
+}
+
+.icon ul{
+	display: inline-block;
+}
+.social-icon .dribbble a{
+	background-color: #dd3c7c;
+	color: #fef9fb;
+}
+
+
+
+
+/*#################################################--      padding: 0 20px;            ---helper css-----#########################################################*/
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style: none;
+}
+
+a,a:hover, a:focus, a:active, a:link, a:visited{
+	text-decoration: none;
+	dispaly: inline-block;
+}
+
+.row{
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div[class^='col']{
+	float: left;
+	padding: 0 15px;
+}
+
+
+.alignright{
+	text-align: right;
+}
+
+
+.aligncenter{
+	text-align: center;
+}
+
